@@ -2,7 +2,8 @@
 ## Description
 This application will allow a user to store notes on a server.  The user is able to view, update, and delete any of the notes from any pc.  
 
-Live Application:  https://tranquil-taiga-52933.herokuapp.com/ 
+Live Application:  https://tranquil-taiga-52933.herokuapp.com/
+
 Video Demo:  https://drive.google.com/file/d/1rsXWr8Nr981FglUfC2jTCgecnA8WXB96/view
 
 ## Table of Contents
