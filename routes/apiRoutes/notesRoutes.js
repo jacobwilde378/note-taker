@@ -14,7 +14,7 @@ router.post("/notes", (req, res) => {
 })
 
 router.delete("/notes/:id", (req, res) => {
-    const newArray = deleteOldNote(req.body, notes);
+    const newArray = deleteOldNote(req.params.id, notes);
     res.send(newArray)
 })
 
