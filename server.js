@@ -11,8 +11,11 @@ app.use(express.urlencoded({ extended: true }));
 
 // // app.use(express.json())
 // app.use('/api', apiRoutes);
+
+
 app.use('/', htmlRoutes);
 app.use('/notes', htmlRoutes);
+app.use('/api', apiRoutes);
 app.use(express.static('public'));
 
 
